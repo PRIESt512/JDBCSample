@@ -10,7 +10,6 @@ import java.sql.Statement;
 public class Start {
 
     static void createTable(Statement st) throws SQLException {
-
         st.execute("CREATE MEMORY TABLE test_JDBC (" +
                 "id IDENTITY PRIMARY KEY," +
                 "name VARCHAR(50)" +
