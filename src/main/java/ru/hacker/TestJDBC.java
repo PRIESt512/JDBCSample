@@ -40,4 +40,12 @@ public class TestJDBC {
     public int hashCode() {
         return Objects.hash(id, name);
     }
+
+    @Override
+    public String toString() {
+        return "TestJDBC{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
