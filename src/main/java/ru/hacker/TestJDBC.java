@@ -3,7 +3,7 @@ package ru.hacker;
 import java.util.Objects;
 
 public class TestJDBC {
-    private int id;
+    private final int id;
     private String name;
 
     public TestJDBC(int id, String name) {
@@ -13,10 +13,6 @@ public class TestJDBC {
 
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getName() {
